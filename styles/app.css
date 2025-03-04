@@ -26,13 +26,13 @@ h1 {
 }
 
 h2 {
-  font-size: 6.4em;
+  font-size: 4.3rem;
 }
 
 p {
   font-weight: normal;
-  font-size: 1.6rem;
-  line-height: 3rem;
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 .hero {
@@ -59,7 +59,7 @@ p {
   background: var(--branding-color);
   border-radius: 0.4rem;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   line-height: 2.7rem;
   padding: 1.5rem 3rem;
 }
@@ -68,13 +68,13 @@ p {
   border: 0.1rem solid var(--branding-color);
   border-radius: 0.4rem;
   color: var(--branding-color);
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   line-height: 2.7rem;
   padding: 1.5rem 3rem;
 }
 
 .project-description {
-  padding: 12rem 6rem ;
+  padding: 7rem 4rem ;
 }
 
 @media (max-width: 96rem) {
@@ -96,7 +96,7 @@ p {
 }
 
  .project-description {
-  padding: 0;
+  padding: 3rem;
   text-align: center;
 } 
 }
