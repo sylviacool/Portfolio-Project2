@@ -55,21 +55,21 @@ p {
   font-size: 2.4rem;
 }
 
-.about-section {
+.content-container {
   padding: 16rem 2rem;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 6rem;
   line-height: 8rem;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 1.8rem;
   line-height: var(--default-font-family);
 }
 
-.about-section-content {
+.content {
   margin: 3rem;
 }
 
