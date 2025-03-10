@@ -38,7 +38,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 16rem 2rem;
+  padding: 10rem 2rem;
 }
 
 .hero p {
@@ -56,12 +56,12 @@ p {
 }
 
 .content h1 {
-  padding: 10rem 2rem;
+  padding: 8rem 2rem;
 }
 
 .content-container h1 {
-  font-size: 6rem;
-  line-height: 8rem;
+  font-size: 4rem;
+  line-height: 4.5rem;
 }
 
 .content h2 {
@@ -71,19 +71,17 @@ p {
 
 
 .content h3 {
- font-size: 2.4rem;
+ font-size: 1.6rem;
  line-height: 1.5;
- margin: 2rem 0 0;
- font-family: var(--heading-font-family);
+ font-family: var(--default-font-family);
 }
 
 .content p {
- font-size: 1.4rem;
-
+ font-size: 0.8rem;
 }
 
 .content {
-  margin: 3rem;
+  margin: 0.1rem;
 }
 
 .btn-branding {
@@ -110,7 +108,7 @@ p {
 
 @media (max-width: 90rem) {
   h1 {
-    font-size: 4.8rem;
+    font-size: 4rem;
   }
 
   h2 {
@@ -119,7 +117,7 @@ p {
   }
 
   .hero {
-  padding: 6rem 2rem;
+  padding: 8rem 2rem;
 }
 
 .btn-branding-outline{
