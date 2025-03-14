@@ -106,6 +106,35 @@ p {
   padding: 7rem 4rem ;
 }
 
+.logo {
+ font-size: 3rem;
+}
+
+nav {
+  padding: 2rem 0;
+}
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 4rem;
+  margin-left: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 90rem) {
   h1 {
     font-size: 4rem;
@@ -125,12 +154,16 @@ p {
 }
 
 .content {
-  text-align: center;
- 
+ text-align: center;
+ padding: 0;
 }
 
  .project-description {
   padding: 3rem;
   text-align: center;
-} 
+}
+
+nav a {
+  font-size: 1rem;
+}
 }
